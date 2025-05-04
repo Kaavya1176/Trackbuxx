@@ -196,11 +196,9 @@ body{
     padding: 0 150px 60px 40px ;
     pointer-events: none;
 } 
-
 .wrapper.active .info-text.register{
     pointer-events: auto;
 }
-
 .wrapper .info-text.register .animation{
     transform: translateX(-130%);
     opacity:0 ;
@@ -208,26 +206,22 @@ body{
     transition: 0.7s ease;
     transition-delay: calc(0.1s * var(--j)) ;
 }
-
 .wrapper.active .info-text.register .animation{
     transform: translateX(0);
     opacity:1 ;
     filter:blur(0);
     transition-delay: calc(0.1s * var(--i)) ;
 }
-
 .info-text h2{
     font-size: 36px;
     color: #fff;
     line-height: 1.3;
     text-transform: uppercase;
 }
-
 .info-text p {
     font-size: 16px;
     color: #fff;
 }
-
 .wrapper .bg-animate{
     position: absolute;
     top: -4px;
@@ -241,12 +235,10 @@ body{
     transition: 1.5s ease; 
     transition-delay: 1.6s;
 }
-
 .wrapper.active .bg-animate{
     transform: rotate(0) skewY(0);  
     transition-delay: .5s;
 }
-
 .wrapper .bg-animate2{
     position: absolute;
     top:100%;
@@ -260,7 +252,6 @@ body{
     transition: 1.5s ease; 
     transition-delay: 0.5s;
 }
-
 .wrapper.active .bg-animate2{
     transform: rotate(-11deg) skewY(-41deg);
     transition-delay: 1.2s;
