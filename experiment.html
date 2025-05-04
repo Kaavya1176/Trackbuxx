@@ -1,2 +1,226 @@
-main branch changes
-new changes in html file
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+        <link rel="stylesheet" href="dashboard.css">
+        <title>MainPage</title>
+    </head>
+    <body>
+        <!-- sidebar -->
+        <section id="sidebar">
+            <a href="#" class="brand">
+                <img src="https://i.pinimg.com/736x/c5/8f/9a/c58f9a997e0f26dff300085bd5a475bc.jpg">
+                <h3><span class="logo">Trackbuxx</span>.com</h3>
+            </a>
+            <ul class="side-menu">
+                <li class="active"> 
+                    <a href="dashboard.html#dashboard">
+                        <i class='bx bxs-dashboard'></i>
+                        <span class="text">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-user' ></i>
+                        <span class="text">Admin</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-line-chart' ></i>
+                        <span class="text">Transactions</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-money-withdraw' ></i>
+                        <span class="text">Incomes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="expense.html#expenses">
+                        <i class='bx bxs-cart-alt' ></i>
+                        <span class="text">Expenses</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-cog' ></i>
+                        <span class="text">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="logout">
+                        <i class='bx bx-log-out' ></i>
+                        <span class="text">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <!-- sidebar -->
+
+        <!-- main content section -->
+        <section id="content">
+            <!-- navbar -->
+            <nav>
+                <i class='bx bx-menu'></i>
+                <a href="#" class="nav-link">Categories</a>
+                <form action="#">
+                    <div class="form-input">
+                        <input type="search" placeholder="Search..">
+                        <button type="submit" class="search-btn"><i class='bx bx-search'></i></button>
+                    </div>
+                </form>
+                <a href="#" class="notification">
+                    <i class='bx bxs-bell' ></i>
+                    <span class="num">8</span>
+                </a>
+                <a href="#" class="profile">
+                    <img src="https://i.pinimg.com/736x/bb/8a/91/bb8a91a047deaa78f7a89228f80d92da.jpg">
+                </a>
+            </nav>
+            <!-- navbar -->
+
+            <!-- main -->
+            <main id="dashboard">
+                <div class="head-title">
+                    <div class="left">
+                        <h1>Dashboard</h1>
+                        <ul class="breadcrumb">
+                            <li>
+                                <a href="#">Dashboard</a>
+                            </li>
+                            <li><i class='bx bx-chevron-right'></i></li>
+                            <li>
+                                <a class="active" href="#">Home</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="date">
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="insights">
+                    <div class="expenses">
+                        <i class='bx bxs-shopping-bag-alt'></i>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Total Expenses</h3>
+                                <h1>$3000</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="incomes">
+                        <i class='bx bx-dollar-circle'></i>
+                        <div class="middle">
+                            <div class="left">
+                                <h3>Incomes</h3>
+                                <h1>$4000</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!-- recent orders -->
+                <div class="table-data">
+                    <div class="shopping">
+                        <div class="head">
+                            <h3>Recent Orders</h3>
+                            <i class='bx bx-search-alt-2' ></i>
+                            <i class='bx bx-filter'></i>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Product Name</th>
+                                    <th>Payments</th>
+                                    <th>Avg</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><p>Grocery</p></td>
+                                    <td>$1000</td>
+                                    <td>30%</td>
+                                    <td class="primary">Details</td>
+                                </tr>
+                                <tr>
+                                    <td><p>Medical</p></td>
+                                    <td>$300</td>
+                                    <td>9%</td>
+                                    <td class="primary">Details</td>
+                                </tr>
+                                <tr>
+                                    <td><p>Clothes</p></td>
+                                    <td>$700</td>
+                                    <td>21%</td>
+                                    <td class="primary">Details</td>
+                                </tr>
+                                <tr>
+                                    <td><p>Skincare</p></td>
+                                    <td>$800</td>
+                                    <td>24%</td>
+                                    <td class="primary">Details</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="todo">
+                        <div class="head">
+                            <h3>Savings Analytics</h3>
+                            <i class='bx bx-plus' ></i>
+                            <i class='bx bx-filter'></i>
+                        </div>
+                        <div class="item online">
+                            <div class="icon">
+                                <span class="material-symbols-outlined"> savings </span>
+                            </div>
+                            <div class="right_text">
+                                <div class="info">
+                                    <h3>Clothes</h3>
+                                </div>
+                                <h5 class="danger">10%</h5>
+                                <h3>$340</h3>
+                            </div>
+                        </div>
+                        <div class="item online">
+                            <div class="icon">
+                                <span class="material-symbols-outlined"> savings </span>
+                            </div>
+        
+                            <div class="right_text">
+                                <div class="info">
+                                    <h3>Grocery</h3>
+                                </div>
+                                <h5 class="danger">6%</h5>
+                                <h3>$200</h3>
+                            </div>
+                        </div>
+                        <div class="item online">
+                            <div class="icon">
+                                <span class="material-symbols-outlined"> savings </span>
+                            </div>
+        
+                            <div class="right_text">
+                                <div class="info">
+                                    <h3>Skincare</h3>
+                                </div>
+                                <h5 class="danger">12%</h5>
+                                <h3>$400</h3>
+                            </div>
+                        </div>        
+                    </div>
+                </div>
+                <!-- recent orders -->
+            </main>
+            <!-- main -->
+        </section>
+        <!-- main content section -->
+
+        <script src="dashboard.js"></script>
+    </body>
+</html>
