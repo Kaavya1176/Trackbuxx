@@ -17,6 +17,7 @@ menuBar.addEventListener('click', function () {
 
 let totalAmount = document.getElementById('total-amount');
 let userAmount = document.getElementById('user-amount');
+
 const checkAmountButton = document.getElementById('check-amount');
 const totalAmountButton = document.getElementById('total-amount-button');
 const productTitle = document.getElementById('product-title');
@@ -26,8 +27,8 @@ const amount = document.getElementById('amount');
 const expenditureValue = document.getElementById('expenditure-value');
 const balanceValue = document.getElementById('balance-amount');
 const list = document.getElementById('list');
-let tempAmount = 0;
 
+let tempAmount = 0;
 totalAmountButton.addEventListener('click', () => {
     tempAmount = parseInt(totalAmount.value);
     if (isNaN(tempAmount) || tempAmount <= 0) {
