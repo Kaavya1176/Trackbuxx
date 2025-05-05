@@ -148,7 +148,7 @@ button a{
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 0.7s;
   transform-style: preserve-3d;
 }
 .flip-box2:hover .flip-box-inner2 {
@@ -175,14 +175,14 @@ button a{
     color: black;
 }
 .flip-box3{
-    background-color: transparent;
+  background-color: transparent;
   width: 200px;
   height: 200px;
   margin-left: 240px;
   border-radius: 10px;
 }
 .flip-box-inner3{
-    position: relative;
+  position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -218,7 +218,7 @@ button a{
     background-color: white;
 }
 .flip-box4{
-    background-color: transparent;
+  background-color: transparent;
   width: 200px;
   height: 200px;
   perspective: 1000px;
