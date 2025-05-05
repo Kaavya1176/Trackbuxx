@@ -31,7 +31,7 @@ body{
 }
 .wrapper .form-box.login{
     left: 0;
-    padding: 0 60px 0 40px;
+    padding: 0 61px 0 40px;
    
 }
 
@@ -76,7 +76,7 @@ body{
 }
 
 .form-box h2{
-    font-size: 32px;
+    font-size: 31px;
     color: #fff;
     text-align: center;
 }
