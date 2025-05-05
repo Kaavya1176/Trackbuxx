@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 * {
 	margin: 0;
 	padding: 0;
@@ -9,7 +8,6 @@
 	list-style: none;
 	appearance: none;    
 }
-
 :root {
 	--poppins: 'Poppins', sans-serif;
 	--lato: 'Lato', sans-serif;
@@ -26,7 +24,6 @@
 	--light-orange: #ffe0d3;
 	--hoverblue: #7380ec;
 }
-
 body {
 	background: var(--grey);
 }
@@ -48,7 +45,7 @@ body {
 	width: 60px;
 }
 #sidebar .brand {
-	height: 56px;
+	height: 55px;
 	display: flex;
 	align-items: center;
 	color: var(--blue);
@@ -163,6 +160,7 @@ body {
 	width: calc(100% - 60px);
 	left: 60px;
 } 
+
 /* navbar */
 #content nav {
 	height: 56px;
@@ -262,10 +260,13 @@ body {
 	border-radius: 50%;
 }
 /* navbar */
+
+/* main */
 #content main {
     width: 80%;
     padding: 20px;
 }
+
 /* table */
 .wrapper {
     width: 100%;
@@ -406,6 +407,7 @@ body {
 }
 /* table */
 /* main */
+/* content */
   
 /* media */
 @media screen and (max-width: 769px) {
@@ -416,7 +418,6 @@ body {
 		display: none;
 	}
 }
-
 @media screen and (max-width: 577px) {
 	#content nav form .form-input input {
 		display: none;
