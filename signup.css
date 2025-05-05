@@ -13,7 +13,7 @@ body{
 .wrapper{
     position:relative;
     width: 751px;
-    height: 450px;
+    height: 451px;
     background: transparent;
     border: 2px solid #0ef;
     box-shadow: 0 0 25px #0ef;
@@ -30,7 +30,7 @@ body{
 }
 .wrapper .form-box.login{
     left: 0;
-    padding: 0 61px 0 40px;
+    padding: 0 60px 0 40px;
 }
 .wrapper .form-box.login .animation{
     opacity:1 ;
@@ -172,7 +172,7 @@ body{
 }
 .wrapper .info-text.login{
     right:0;
-     text-align: right;
+    text-align: right;
     padding: 0 40px 60px 150px ; 
    
 }
@@ -186,7 +186,7 @@ body{
 }
 .wrapper.active .info-text.login .animation{
     transform: translateX(120%);
-     opacity:0 ;
+    opacity:0 ;
     filter:blur(10px); 
     transition-delay: calc(0.1s * var(--i)) ;
 }

@@ -8,13 +8,11 @@ allSideMenu.forEach(item=> {
         li.classList.add('active');
     })
 });
-
 const menuBar = document.querySelector('#content nav .bx.bx-menu');
 const sidebar = document.getElementById('sidebar');
 menuBar.addEventListener('click', function () {
     sidebar.classList.toggle('hide');
 })
-
 let totalAmount = document.getElementById('total-amount');
 let userAmount = document.getElementById('user-amount');
 
