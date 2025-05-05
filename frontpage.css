@@ -1,0 +1,414 @@
+.logo{
+    display: flex;
+    background-color: #ffffff;
+};
+.logo {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#0ef;
+}
+button a{
+  text-decoration: none;
+  color: rgb(252, 247, 247);
+}
+.button1{
+    margin-left: 900px;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    background-color: #081b29;
+    color: aliceblue;
+    font-size: 17px;
+    border-radius: 7%;
+    position: absolute;
+    overflow: hidden;
+}
+.para1{
+    display: flex;
+    background-color: #081b29;
+}
+.left1{
+    display: flex=50%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    color: #fff;
+}
+.right1{
+    display: flex=50%;
+    margin-left: 200px;
+    transition: transform .2s;
+}
+.right1:hover{
+  transform: scale(1.2);
+}
+.para2{
+    display: flex;
+    background-color: rgb(49, 171, 180);
+}
+.left2{
+    display: flex=50%;
+    margin-left:90px ;
+    transition: tansform .2s;
+}
+.left2:hover{
+  transform: scale(1.1);
+}
+.right2{
+    display: flex=50%;
+    margin-left:120px ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para3{
+    display: flex;
+    background-color: #081b29;
+}
+.left3{
+    display: flex=50%;
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.right3{
+    display: flex=50%;
+    margin-left: 150px;
+    transition: transform .2s;
+}
+.right3:hover{
+  transform: scale(1.2);
+}
+.para4{
+    display: flex;
+    background-color: rgb(49, 171, 180);
+}
+.left4{
+    display: flex=50%;
+    margin-left: 100px;
+    transition: transform .2s;
+}
+.left4:hover{
+  transform: scale(1.2);
+}
+.right4{
+    display: flex=50%;
+    margin-left:150px ;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+.bottom1{
+    display: flex;
+    background-color: white;
+}
+.flip-box1{
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  margin-left: 110px;
+  border-radius: 10px;
+}
+.flip-box-inner1{
+    position: relative;
+    width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box1:hover .flip-box-inner1 {
+    transform: rotateY(180deg);
+}
+.flip-box-front1, .flip-box-back1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.flip-box-front1 {
+        background-color:white;
+        color: white;
+}
+.flip-box-back1 {
+    background-color:rgb(190, 232, 175) ;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}
+.flip-box-back1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.flip-box2{
+    background-color: transparent;
+  width: 200px;
+  height: 200px;
+  margin-left: 220px;
+  border-radius: 10px;
+}
+.flip-box-inner2{
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box2:hover .flip-box-inner2 {
+    transform: rotateY(180deg);
+}
+.flip-box-front2, .flip-box-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.flip-box-front2 {
+        background-color:white;
+        color: white;
+}
+.flip-box-back2 {
+    background-color:rgb(190, 232, 175) ;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}
+.flip-box-back2{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.flip-box3{
+    background-color: transparent;
+  width: 200px;
+  height: 200px;
+  margin-left: 240px;
+  border-radius: 10px;
+}
+.flip-box-inner3{
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box3:hover .flip-box-inner3 {
+    transform: rotateY(180deg);
+}
+.flip-box-front3, .flip-box-back3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+.flip-box-front3 {
+        background-color:white;
+        color: white;
+}
+.flip-box-back3 {
+    background-color:rgb(190, 232, 175) ;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}
+.flip-box-back3{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.bottom2{
+    display: flex;
+    background-color: white;
+}
+.flip-box4{
+    background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  margin-left: 110px;
+  border-radius: 10px;
+}
+.flip-box-inner4{
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box4:hover .flip-box-inner4 {
+    transform: rotateY(180deg);
+}
+.flip-box-front4, .flip-box-back4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+.flip-box-front4 {
+        background-color:white;
+        color: white;
+}
+.flip-box-back4 {
+    background-color:rgb(190, 232, 175) ;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}
+.flip-box-back4{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.flip-box5{
+    background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  margin-left: 220px;
+  border-radius: 10px;
+}
+.flip-box-inner5{
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box5:hover .flip-box-inner5 {
+    transform: rotateY(180deg);
+}
+.flip-box-front5, .flip-box-back5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+.flip-box-front5 {
+        background-color:white;
+        color: white;
+}
+.flip-box-back5 {
+    background-color:rgb(190, 232, 175) ;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}
+.flip-box-back5{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.flip-box6{
+    background-color: transparent;
+  width: 200px;
+  height: 200px;
+  margin-left: 240px;
+  border-radius: 10px;
+}
+.flip-box-inner6{
+    position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box6:hover .flip-box-inner6 {
+    transform: rotateY(180deg);
+}
+.flip-box-front6, .flip-box-back6 {
+    position: absolute;
+    width: 100%;
+    height: 100%; 
+    backface-visibility: hidden;
+}
+.flip-box-front6 {
+        background-color:white;
+        color: white;
+}
+ .flip-box-back6 {
+    background-color:rgb(190, 232, 175) ;
+    color: white;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+}
+.flip-box-back6{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+} 
+.footer {
+  background-color: #333;
+  color: #f4f4f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+.contact-info, .finances {
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+.contact-info h3, .finances h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #f4f4f9;
+}
+.contact-info p, .finances p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+.contact-info a {
+  color: #f4f4f9;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+.finances form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+.finances input[type="email"] {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 4px;
+  border: none;
+  width: 60%;
+}
+.finances button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #f4f4f9;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.finances button:hover {
+  background-color: #ddd;
+}
+.footer-credit {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #ccc;
+}
