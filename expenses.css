@@ -45,7 +45,7 @@ body {
 	width: 60px;
 }
 #sidebar .brand {
-	height: 55px;
+	height: 56px;
 	display: flex;
 	align-items: center;
 	color: var(--blue);
@@ -57,13 +57,13 @@ body {
 	font-weight: 800;
 }
 #sidebar .brand img {
-	min-width: 60px;
+	min-width: 61px;
 	display: flex;
 	justify-content: center;
 }
 #sidebar .side-menu {
 	width: 100%;
-	margin-top: 48px;
+	margin-top: 49px;
 }
 #sidebar .side-menu li {
 	height: 48px;
